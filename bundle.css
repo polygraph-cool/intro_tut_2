@@ -1,0 +1,128 @@
+a {
+  border-color: #f33;
+}
+
+.intro {
+  margin: 0 auto;
+  padding: 4rem 1rem 0 1rem;
+}
+
+.intro__overline {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #f33;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+
+.intro__hed {
+  max-width: 60rem;
+  margin: 0 auto;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.intro__byline {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.intro__dek {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.intro__image {
+  max-width: 30rem;
+  margin: 3rem auto;
+}
+
+.post {
+  max-width: 60rem;
+  margin: 0 auto 4rem auto;
+  padding: 0 1rem;
+}
+
+.post p {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post__hed {
+  max-width: 40rem;
+  margin: 4rem auto 0 auto;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.post figure {
+  margin: 3rem auto;
+}
+
+.post figure img {
+  border: 1px solid #dedede;
+}
+
+.post figcaption {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.post ol {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.post ul {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.post li {
+  line-height: 1.7;
+}
+
+.post .list-title {
+  margin-bottom: 0;
+}
+
+
+.iframe-box {
+    text-align:center;
+    width:100%;
+}
+
+@media only screen and (min-width: 40em) {
+  .intro__hed {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (min-width: 50em) {
+  .intro__hed {
+    font-size: 64px;
+    line-height: 1.2;
+  }
+  
+  
+}
